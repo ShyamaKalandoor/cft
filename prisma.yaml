@@ -233,21 +233,21 @@
             #   ],
             #   "Resource": "*"
             # },
-            # {
-            #   "Sid": "PrismaCloudInspector1",
-            #   "Effect": "Allow",
-            #   "Action": [
-            #     "inspector:DescribeAssessmentTemplates",
-            #     "inspector:DescribeFindings",
-            #     "inspector:DescribeRulesPackages",
-            #     "inspector:ListAssessmentRunAgents",
-            #     "inspector:ListAssessmentRuns",
-            #     "inspector:ListAssessmentTemplates",
-            #     "inspector:ListFindings",
-            #     "inspector:ListRulesPackages"
-            #   ],
-            #   "Resource": "*"
-            # },
+            {
+              "Sid": "PrismaCloudInspector1",
+              "Effect": "Allow",
+              "Action": [
+                "inspector:DescribeAssessmentTemplates",
+                "inspector:DescribeFindings",
+                "inspector:DescribeRulesPackages",
+                "inspector:ListAssessmentRunAgents",
+                "inspector:ListAssessmentRuns",
+                "inspector:ListAssessmentTemplates",
+                "inspector:ListFindings",
+                "inspector:ListRulesPackages"
+              ],
+              "Resource": "*"
+            },
             {
               "Sid": "PrismaCloudEBRuleManagementPermissions1",
               "Effect": "Allow",
