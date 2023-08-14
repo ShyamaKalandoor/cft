@@ -200,21 +200,21 @@
               ],
               "Resource": "*"
             },
-            {
-              "Sid": "PrismaCloudEBRuleStatusPermissions2",
-              "Effect": "Allow",
-              "Action": [
-                "cloudtrail:DescribeTrails",
-                "cloudtrail:GetEventSelectors",
-                "cloudtrail:GetTrailStatus",
-                "ec2:DescribeRegions",
-                "events:DescribeApiDestination",
-                "events:DescribeConnection",
-                "events:DescribeRule",
-                "events:ListTargetsByRule"
-              ],
-              "Resource": "*"
-            },
+            # {
+            #   "Sid": "PrismaCloudEBRuleStatusPermissions2",
+            #   "Effect": "Allow",
+            #   "Action": [
+            #     "cloudtrail:DescribeTrails",
+            #     "cloudtrail:GetEventSelectors",
+            #     "cloudtrail:GetTrailStatus",
+            #     "ec2:DescribeRegions",
+            #     "events:DescribeApiDestination",
+            #     "events:DescribeConnection",
+            #     "events:DescribeRule",
+            #     "events:ListTargetsByRule"
+            #   ],
+            #   "Resource": "*"
+            # },
             # {
             #   "Sid": "PrismaCloudComputeAMIScanning",
             #   "Effect": "Allow",
